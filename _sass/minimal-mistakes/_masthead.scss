@@ -38,10 +38,19 @@
   }
 }
 
-.site-logo img {
-  max-height: 2rem;
+.author__avatar {
+  width: 130px !important;
+  height: 130px !important;
 }
 
+.author__avatar img,
+.author__avatar .u-photo {
+  width: 130px !important;
+  height: 130px !important;
+  max-width: 130px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+}
 .site-title {
   display: -webkit-box;
   display: -ms-flexbox;

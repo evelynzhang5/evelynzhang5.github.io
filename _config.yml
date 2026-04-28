@@ -17,16 +17,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 direction                : # "ltr" (default), "rtl" # set the direction of the page
-title                    : "Site Title"
+title                    : "Evelyn Zhang"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+subtitle                 : "Data Science · Machine Learning · Computer Vision"
+name                     : "Evelyn Zhang"
+description              : "UCSD undergraduate studying Data Science and Cognitive Science with a specialization in Machine Learning."
+baseurl                  : ""
+url        : "https://evelynzhang5.github.io"
+repository : "evelynzhang5/evelynzhang5.github.io"
+#logo                     : "/assets/images/IMG_0648.JPG"
+masthead_title           : "Evelyn Zhang"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
@@ -114,31 +114,20 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
-  # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
+  name             : "Evelyn Zhang"
+  avatar           : "/assets/images/IMG_0648.JPG"
+  bio              : "UCSD undergraduate studying Data Science and Cognitive Science, specializing in Machine Learning. Interested in computer vision, biological image analysis, and data-driven research tools."
+  location         : "San Diego, CA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      # url: "https://facebook.com/"
+      url: "mailto:evelynzhang0516@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/evelynzhang5"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/evelyn-zhang-18ba7328a/"
 
 # Site Footer
 footer:
@@ -231,7 +220,11 @@ sass:
   quiet_deps: true
   silence_deprecations: ['import']
 
-
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 # Outputting
 permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -331,4 +324,12 @@ defaults:
       comments: # true
       share: true
       related: true
+    # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
