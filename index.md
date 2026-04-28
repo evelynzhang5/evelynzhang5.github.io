@@ -25,7 +25,6 @@ Built a cloud-native web platform for whole-slide histopathology analysis using 
 
 [GitHub](https://github.com/evelynzhang5/lipid-workers){: .btn .btn--primary}
 
-
 ---
 
 ### Predicting Sex and ADHD Diagnosis from Functional Brain Imaging
@@ -47,6 +46,7 @@ Contributed to FastVideo open-source development at Hao AI Lab, supporting text-
 ### Decoding Linearly Separable Neural Fingerprints via Discrete Wavelet Transform
 
 Traditional EEG biometrics often rely on active cognitive tasks (e.g., motor imagery), which are intrusive and unstable. Our project asks: Can we identify individuals purely from their background "hardware" brainwaves, regardless of what they are looking at? We hypothesized that by suppressing task-evoked potentials (ERPs) using mathematical phase cancellation, we could isolate a stable, task-independent neural fingerprint in the occipital lobe.
+
 [GitHub](https://github.com/evelynzhang5/EEG-Biometrics-Neural-Identity){: .btn .btn--primary}
 [Paper / Report](https://github.com/evelynzhang5/EEG-Biometrics-Neural-Identity/blob/main/final_bci_report.pdf){: .btn .btn--inverse}
 
@@ -89,14 +89,14 @@ Developed a machine learning pipeline to predict recipe ratings using random for
 
 ---
 
-### Bootstrapper & Local Shape Descriptor Models for Brain EM Data
-
-Developed a bootstrapped training pipeline for predicting 3D brain tissue volumes from sparse labels. This project involved automated grid search for hyperparameter optimization, large-scale GPU runs, and visualization of segmentation outputs using Neuroglancer.
-
----
-
 ### Can Relationship Affect Serial Killer’s Weapon Choice?
 
 Investigated whether offender-victim relationship type influences weapon choice in solved Alaska homicide cases from 2000 to 2023. Using data cleaning, visualization, statistical tests, and Random Forest modeling, the project found that stranger-related incidents were more strongly associated with firearms, while close-relationship cases showed more complex patterns influenced by additional demographic and situational factors.
 
 [Report](https://github.com/evelynzhang5/weapon_choice/blob/main/FinalProject_Group081-FA24.ipynb){: .btn .btn--inverse}
+
+---
+
+### Bootstrapper & Local Shape Descriptor Models for Brain EM Data
+
+Developed a bootstrapped training pipeline for predicting 3D brain tissue volumes from sparse labels. This project involved automated grid search for hyperparameter optimization, large-scale GPU runs, and visualization of segmentation outputs using Neuroglancer.
