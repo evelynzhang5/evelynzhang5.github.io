@@ -52,6 +52,40 @@ Traditional EEG biometrics often rely on active cognitive tasks (e.g., motor ima
 
 ---
 
+### Reinforcement Learning and Test-Time Verification for Small-Model Mathematical Reasoning
+
+Improved a fixed 4B Qwen math-reasoning model for the CSE 151B/251B competition using GRPO fine-tuning, judge-aware prompting, 12-way majority voting, and selective self-verification for free-form answers. The pipeline raised validation accuracy from 61.6% to roughly 68% and placed 16th out of 105 teams on the private leaderboard.
+
+[GitHub](https://github.com/ZiyaoZzz/151B_SP26_Competition){: .btn .btn--primary}
+[Paper / Report](/assets/reports/cse-151b-251b-final-report.pdf){: .btn .btn--inverse}
+
+---
+
+### Predicting Chronic Kidney Disease from Clinical and Laboratory Measurements
+
+Built a supervised classification workflow for predicting chronic kidney disease from routine clinical and laboratory measurements. Compared logistic regression, KNN, and decision tree models with stratified cross-validation; the selected regularized logistic regression model achieved strong cross-validation performance and highlighted clinically meaningful predictors such as albumin, serum creatinine, blood urea, hemoglobin, hypertension, and diabetes.
+
+[Paper / Report](/assets/reports/cogs109-ckd-final-report.pdf){: .btn .btn--inverse}
+
+---
+
+### Optimized ResNet18 for Low-Resolution Image Classification
+
+Adapted ResNet18 for Tiny-ImageNet-200 by preserving early spatial detail with a smaller stride-1 convolution and removing the initial max-pooling layer. Ran optimizer ablations, metric analysis, and Grad-CAM visualizations, with the optimized ResNet18 and cosine-annealed SGD reaching 62.65% top-1 validation accuracy.
+
+[GitHub](https://github.com/evelynzhang5/cogs181-final){: .btn .btn--primary}
+[Paper / Report](/assets/reports/cogs181-final-project.pdf){: .btn .btn--inverse}
+
+---
+
+### Adversarial vs. Likelihood-Based Generation on CIFAR-10 and CelebA
+
+Compared DCGAN, WGAN-GP, and VAE image generation across CIFAR-10 and CelebA under CPU-constrained training. The study analyzed fidelity, diversity, stability, runtime, and proxy classifier metrics, showing that GANs produced sharper samples, VAEs offered stronger coverage, and WGAN-GP reduced DCGAN-style mode collapse.
+
+[Paper / Report](/assets/reports/cogs185-generative-models-report.pdf){: .btn .btn--inverse}
+
+---
+
 ### Rhythms of the Night: Two-Week Mouse Activity & Temperature Across Estrus Cycles
 
 Created an interactive website for visualizing mouse activity and body temperature patterns across the ovulation cycle. The project allows users to explore two weeks of behavioral and physiological data through interactive visualizations.
