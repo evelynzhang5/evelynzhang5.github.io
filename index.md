@@ -6,9 +6,18 @@ permalink: /
 classes: wide
 ---
 
-Hi, I'm Evelyn Zhang, a UCSD undergraduate pursuing dual B.S. degrees in Data Science and Cognitive Science with a specialization in Machine Learning and Neural Computation. My interests lie at the intersection of machine learning, computer vision, biomedical imaging, and scalable research tools. I have worked on projects ranging from histopathological cancer diagnosis and whole-slide image analysis platforms to brain EM segmentation, functional brain imaging prediction, and open-source text-to-video model development. I enjoy building end-to-end systems that combine data preprocessing, model development, visualization, and deployment to solve real-world scientific and biomedical problems.
+Hi, I'm Evelyn Zhang, a UCSD undergraduate pursuing dual B.S. degrees in Data Science and Cognitive Science with a specialization in Machine Learning and Neural Computation. My interests lie at the intersection of machine learning, computer vision, biomedical imaging, and scalable research tools. I have worked on projects ranging from histopathological cancer diagnosis and whole-slide image analysis platforms to brain EM segmentation, functional brain imaging prediction, open-source text-to-video model development, and steering diffusion models. I enjoy building end-to-end systems that combine data preprocessing, model development, visualization, and deployment to solve real-world scientific and biomedical problems.
 
 ## Recent Projects
+
+### Diffusion Steering: Classifier-Free Guidance Across Noise Levels
+
+Research on how to steer diffusion models, starting with whether the classifier-free guidance (CFG) weight should change across noise levels instead of staying fixed. Trained EDM on the full CIFAR-10 dataset on a GPU cluster (~14 GPU hours, FID 412 → 50.2), trained an MNIST CFG network from scratch, and replicated Table 2 of the NA-RFM steering paper (Wang, Belkin & Wang, ICML 2026) on CIFAR-10. Ongoing work tests what makes a steering intervention actually control the final image on MNIST and Stable Diffusion 1.5. For example, a reference set biased toward portraits produced a "blur" direction that enlarged people in 4 of 4 prompts, and depth-of-field steering reduced background sharpness by 35.6% (the paper reports 27.6%).
+
+[GitHub](https://github.com/evelynzhang5/dsc180-diffusion-steering){: .btn .btn--primary}
+[Report](https://drive.google.com/file/d/1g770Y5qUykiv7fV8qXJDeAzsil7pHX60/view?usp=sharing){: .btn .btn--inverse}
+
+---
 
 ### Hybrid CNN–gMLP for Histopathological Cancer Diagnosis
 
